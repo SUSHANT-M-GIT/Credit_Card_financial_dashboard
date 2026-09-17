@@ -1,51 +1,62 @@
-# Credit Card Dashboard 💳
+# Credit Card Financial Dashboard
 
-## What is this?
-
-I made a dashboard in Power BI that shows information about credit card customers and their spending. You can see things like who is spending money, how much, and what they are buying — all in cool charts!
+A Power BI dashboard that shows spending patterns and customer details from credit card data.
 
 ---
 
-## Files in this project
+## What This Project Does
 
-| File | What it is |
-|------|------------|
-| `customer.csv` | Info about the customers |
-| `cc_add.csv` | Credit card transaction data |
-| `dashbordcc.pbix` | The actual Power BI dashboard |
-| `Credit_Card_Dashboard_Report.pdf` | A PDF report of the dashboard |
+This dashboard takes raw credit card transaction data and turns it into visual reports. It helps answer questions like:
 
----
-
-## What the dashboard shows
-
-**Page 1 – Transactions**
-- How much money was made
-- Which card types people use
-- What they spend money on
-- How each quarter went
-
-**Page 2 – Customers**
-- Who the customers are (age, job, state, gender)
-- How much different groups earn and spend
+- How much money is being spent, and when?
+- Which card types are used the most?
+- Who are the customers, and how do they spend?
 
 ---
 
-## How to open it
+## Files in This Project
 
-1. Download **Power BI Desktop** (it's free!)
-2. Open the `dashbordcc.pbix` file
-3. Click around and explore the charts 🎉
+| File | What It Is |
+|---|---|
+| `customer.csv` | Customer details (age, job, state, gender) |
+| `cc_add.csv` | Credit card transaction records |
+| `dashbordcc.pbix` | The Power BI dashboard file |
+| `Credit_Card_Dashboard_Report.pdf` | A PDF export of the dashboard |
 
 ---
 
-## What I used
+## Dashboard Pages
+
+**Page 1 — Transactions**
+- Total money spent
+- Most used card types
+- What customers spend money on
+- Spending trends by quarter
+
+**Page 2 — Customers**
+- Customer details: age, job, state, gender
+- Spending and income by customer group
+
+---
+
+## Tools Used
 
 - Power BI
-- Two CSV files as data
+- Two CSV files as the data source
+- DAX for calculations inside the dashboard
 
 ---
 
-## Why I made this
+## How to View It
 
-I wanted to see patterns in credit card data — like which jobs have the highest spenders, or which card type earns the most. It was a fun way to learn Power BI!
+1. Install Power BI Desktop (free from Microsoft).
+2. Open the `dashbordcc.pbix` file.
+3. Use the filters and charts to explore the data.
+
+If you don't have Power BI, open `Credit_Card_Dashboard_Report.pdf` instead for a static view.
+
+---
+
+## Why I Built This
+
+I wanted to practice working with real-world data in Power BI — cleaning it, building visuals, and finding patterns like which customer groups spend the most. This project helped me learn data modeling, DAX, and dashboard design.
